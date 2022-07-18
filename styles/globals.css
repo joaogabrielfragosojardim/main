@@ -1,16 +1,22 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #f2eae2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+:root {
+  --main: #3d8168;
+  --second: #6c7289;
+  --bg: #fff;
+  --title: #1c232b;
+  --hover: #1a4032;
 }
